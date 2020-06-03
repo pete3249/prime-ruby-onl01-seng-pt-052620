@@ -6,6 +6,12 @@ def prime?(integer)
     return true
   else 
     numbers_array.each do |number|
+      if integer
+        
+        
+        
+        
+    end 
     
     
   
@@ -14,8 +20,7 @@ def prime?(integer)
   numbers_array.each do |number|
     
     
-      if number % 2 == 0
-        return false
+      if 
       elsif number % 3 == 0
         return false
       else 
