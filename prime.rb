@@ -1,6 +1,7 @@
 def prime?(number)
   return false if !number.integer?
   return false if number < 2
+  return true if number == 2
   
   
   
@@ -14,23 +15,7 @@ def prime?(number)
       if integer % 2 
   end 
 end 
-  
- 
-  
-  
-  if 
-  elsif integer == 2
-    return true
-  else 
-    if integer % 2 == 0
-      return false
-    elsif integer % 3 == 0
-      return false
-    else 
-      return true
-    end 
-  end 
-end 
+
     
     
     
