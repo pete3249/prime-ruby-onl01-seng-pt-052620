@@ -1,6 +1,6 @@
 def prime?(integer)
   numbers_array = (-1..integer).to_a
-  if integer == -1 && number <= 1
+  if integer == -1 && integer <= 1
     return false
   elsif integer == 2
     return true
