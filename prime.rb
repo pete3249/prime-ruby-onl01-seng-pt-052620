@@ -1,9 +1,12 @@
 def prime?(integer)
+  if inte
+  
+  
   numbers_array = (-1..integer).to_a
   numbers_array.each do |number|
-    if number == -1 && number <= 1
+    if integer == -1 && number <= 1
       return false
-    elsif number == 2
+    elsif integer == 2
       return true
     else number >= 3
       if number % 2 == 0
