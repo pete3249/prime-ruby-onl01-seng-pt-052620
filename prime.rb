@@ -1,6 +1,7 @@
-def prime?(integer)
+def prime?(number)
   return false if !number.integer?
-  return false if !
+  return false if number < 2
+  
   
   
   numbers_array = (-1..integer).to_a
