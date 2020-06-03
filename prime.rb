@@ -2,7 +2,8 @@ def prime?(integer)
   if integer >= 1
     if n == 2:
       return true
-    if n
+    if n == 3
+      return true
   else
     return false
 end 
