@@ -5,8 +5,16 @@ def prime?(integer)
   elsif integer == 2
     return true
   else 
+    if integer % 2 == 0
+      return false
+    elsif integer % 3 == 0
+    
+    
+    
+    
+    
     numbers_array.each do |number|
-      if integer
+      
         
         
         
